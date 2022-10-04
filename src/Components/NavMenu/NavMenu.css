@@ -1,0 +1,16 @@
+li{
+    display: flex;
+    justify-content: end;
+}
+
+/* @media screen and (min-width: 200px) and (max-width: 550px) {
+    nav li{
+        display: none;
+    }
+}  */
+
+/* @media screen and (min-width: 551px) and (max-width: 750px) {
+    nav li{
+        display: none;
+    }
+} */

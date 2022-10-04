@@ -1,0 +1,42 @@
+.singlePrice{
+    height: 420px;
+    border-radius: 14px;
+    border: 1px  solid grey;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    background: #ffffff;
+    color: rgb(1, 1, 1);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.singlePrice button{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    padding: 20px 0;
+    border-radius: 10px;
+    width: 92%;
+    font-size: 20px;
+    border: 1px solid rgb(120, 118, 118);
+    background: rgb(255, 254, 254);
+    color: rgb(0, 51, 255);
+    border-radius: 10px;
+    margin: 5px 15px;
+    border-left: 2px solid rgb(0, 51, 255);
+    border-right: 2px solid rgb(0, 51, 255) ;
+    transition: ease .3s;
+    -webkit-transition: ease .3s;
+    -moz-transition: ease .3s;
+    -ms-transition: ease .3s;
+    -o-transition: ease .3s;
+}
+.singlePrice button:hover{
+    background-color: rgb(0, 51, 255);
+    color: white;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255) ;
+}
